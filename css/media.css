@@ -1,0 +1,483 @@
+/* extra small devices screens */
+/* jint smart watches */
+@media screen and (width <640px) {
+        .content h1{
+    font-weight: 200;
+    padding: 0.2rem 0;
+    color: #fff;
+    font-size: 2rem;
+   
+}
+.hero-img{
+    text-align: center;
+    padding: 0;
+    padding-left: 30px;
+}
+.hero-img::after{
+    content: "";
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    left: 0px;
+    bottom: -32px;
+    background-image: url(../images/dots.png);
+    background-repeat: repeat;
+    z-index: -1;
+}
+.content h3{
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 5px;
+    margin-top: 4rem;
+    color: var(--first-color);
+}
+.container{
+    width: 100% !important;
+    max-width: none !important;
+}
+
+.nav-pills .nav-item{
+    width: 22%;
+    padding-inline: 0 !important;
+    display: flex !important;
+    justify-content: center !important;
+    margin-right: 10px;
+}
+.contact form{
+    margin-left: 0!important;
+    
+
+}
+.contact .container{
+    width: 100% !important;
+    max-width: none !important;
+}
+.form-control{
+    width: 100%;
+    margin: 0 !important;
+    margin-bottom: 1rem !important;
+}
+textarea{
+    width: 100% !important;
+    max-height: 160px !important;
+    height: 160px;
+}
+.l-but{
+    margin-top: 0.8rem !important;
+}
+footer p{
+    font-size: 12px !important;
+    word-spacing: 2px !important;
+    margin: 0 !important;
+}
+.contact form{
+    margin: 0 !important;
+}
+.progress{
+    width: 100% !important;
+}
+        .xs-100{
+            width: 100%;
+        }
+        .xs-90{
+            width: 90%;
+        }
+        .xs-80{
+            width: 80%;
+        }
+        .xs-70{
+            width: 70%;
+        }
+        .xs-60{
+            width: 60%;
+        }
+        .xs-50{
+            width: 50%;
+        }
+        .xs-40{
+            width: 40%;
+        }
+        .xs-30{
+            width: 30%;
+        }
+        .xs-20{
+            width: 20%;
+        }
+    
+        .xs-10{
+            width: 10%;
+        }
+    
+}
+/* small screens  */
+/* hint iphone 14 */
+@media screen and (640px <= width < 768px) {
+       .content h1{
+    font-weight: 200;
+    padding: 0.2rem 0;
+    color: #fff;
+    font-size: 2rem;
+   
+}
+.hero-img{
+    text-align: center;
+    padding: 0;
+    padding-left: 30px;
+    width: 100%;
+}
+.hero-img::after{
+    content: "";
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    left: 0px;
+    bottom: -32px;
+    background-image: url(../images/dots.png);
+    background-repeat: repeat;
+    z-index: -1;
+}
+.content h3{
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 5px;
+    margin-top: 4rem;
+    color: var(--first-color);
+}
+.container{
+    width: 100% !important;
+    max-width: none !important;
+}
+.progress{
+    width: 100% !important;
+}
+.form-control{
+    width: 100%;
+    margin: 0 !important;
+    margin-bottom: 1rem !important;
+}
+textarea{
+    width: 100% !important;
+    max-height: 160px !important;
+    height: 160px;
+}
+.l-but{
+    margin-top: 0.8rem !important;
+}
+.contact form{
+    margin: 0 !important;
+}
+    .sm-100{
+        width: 100%;
+    }
+    .sm-90{
+        width: 90%;
+    }
+    .sm-80{
+        width: 80%;
+    }
+    .sm-70{
+        width: 70%;
+    }
+    .sm-60{
+        width: 60%;
+    }
+    .sm-50{
+        width: 50%;
+    }
+    .sm-40{
+        width: 40%;
+    }
+    .sm-30{
+        width: 30%;
+    }
+    .sm-20{
+        width: 20%;
+    }
+
+    .sm-10{
+        width: 10%;
+    }
+    
+}
+/* medium screens  */
+/*  hint ipad */
+@media screen and ( 768px <= width <1024px) {
+     .content h1{
+    font-weight: 200;
+    padding: 0.2rem 0;
+    color: #fff;
+    font-size: 2.9rem;
+   
+}
+.hero-img{
+    text-align: center;
+    padding: 0;
+    padding-left: 30px;
+    width: 100%;
+    display: block;
+}
+.hero-img::after{
+    content: "";
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    left: 0px;
+    bottom: -32px;
+    background-image: url(../images/dots.png);
+    background-repeat: repeat;
+    z-index: -1;
+}
+.content h3{
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 5px;
+    margin-top: 4rem;
+    color: var(--first-color);
+}
+
+.progress{
+    width: 100% !important;
+}
+.form-control{
+    width: 100%;
+    margin: 0 !important;
+    margin-bottom: 1rem !important;
+}
+textarea{
+    width: 100% !important;
+    max-height: 160px !important;
+    height: 160px;
+}
+.l-but{
+    margin-top: 0.8rem !important;
+}
+.contact form{
+    margin: 0 !important;
+}
+.navbar-brand{
+    margin: 0 !important;
+}
+.nav-item{
+    padding: 0.3rem !important;
+}
+.navbar-nav{
+    margin-inline-end: 0 !important;
+}
+  .contact .container{
+        width: 90% !important;
+        max-width: none !important;
+    }
+    .form-control{
+    width: 100%;
+    margin: 0.7rem !important;
+    margin-bottom: 1rem !important;
+}
+.l-but{
+    margin-left: 0.8rem !important;
+}
+    .md-100{
+        width: 100%;
+    }
+    .md-90{
+        width: 90%;
+    }
+    .md-80{
+        width: 80%;
+    }
+    .md-70{
+        width: 70%;
+    }
+    .md-60{
+        width: 60%;
+    }
+    .md-50{
+        width: 50%;
+    }
+    .md-40{
+        width: 40%;
+    }
+    .md-30{
+        width: 30%;
+    }
+    .md-20{
+        width: 20%;
+    }
+
+    .md-10{
+        width: 10%;
+    }
+    
+}
+/* large screens */
+/* mac air */
+@media screen and ( 1024px <= width <1280px) {
+      .content h1{
+    font-weight: 200;
+    padding: 0.2rem 0;
+    color: #fff;
+    font-size: 2.9rem;
+   
+}
+.hero-img{
+    padding: 0 0 0 1.2rem;
+}
+.hero-img::after{
+    content: "";
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    left: -10px;
+    bottom: -25px;
+    background-image: url(../images/dots.png);
+    background-repeat: repeat;
+    z-index: -1;
+}
+.progress{
+    width: 100% !important;
+}
+.contact .container{
+        width: 80% !important;
+        max-width: none;
+    }
+       .form-control{
+    width: 45%;
+    margin: 1rem !important;
+    margin-bottom: 1rem !important;
+}
+.l-but{
+    margin-left: 1.1rem !important;
+}
+    .lg-100{
+        width: 100%;
+    }
+    .lg-90{
+        width: 90%;
+    }
+    .lg-80{
+        width: 80%;
+    }
+    .lg-70{
+        width: 70%;
+    }
+    .lg-60{
+        width: 60%;
+    }
+    .lg-50{
+        width: 50%;
+    }
+    .lg-40{
+        width: 40%;
+    }
+    .lg-30{
+        width: 30%;
+    }
+    .lg-20{
+        width: 20%;
+    }
+
+    .lg-10{
+        width: 10%;
+    }
+}
+/* extra large */
+/* laptop  */
+@media screen and ( 1280px <= width <1536px) {
+   .hero-img{
+    padding: 0 0 0 1.2rem;
+}
+.hero-img::after{
+    content: "";
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    left: -10px;
+    bottom: -25px;
+    background-image: url(../images/dots.png);
+    background-repeat: repeat;
+    z-index: -1;
+}
+.progress{
+    width: 100% !important;
+}
+.contact .container{
+        width: 80% !important;
+        max-width: none;
+    }
+        .form-control{
+    margin: 1.2rem !important;
+    
+}
+.l-but{
+    margin-left: 1.1rem !important;
+}
+    .xl-100{
+        width: 100%;
+    }
+    .xl-90{
+        width: 90%;
+    }
+    .xl-80{
+        width: 80%;
+    }
+    .xl-70{
+        width: 70%;
+    }
+    .xl-60{
+        width: 60%;
+    }
+    .xl-50{
+        width: 50%;
+    }
+    .xl-40{
+        width: 40%;
+    }
+    .xl-30{
+        width: 30%;
+    }
+    .xl-20{
+        width: 20%;
+    }
+
+    .xl-10{
+        width: 10%;
+    }
+}
+/* 2x large */
+/* tv */
+@media screen and ( width >=1536px ) {
+
+
+   
+    .xxl-100{
+        width: 100%;
+    }
+    .xxl-90{
+        width: 90%;
+    }
+    .xxl-80{
+        width: 80%;
+    }
+    .xxl-70{
+        width: 70%;
+    }
+    .xxl-60{
+        width: 60%;
+    }
+    .xxl-50{
+        width: 50%;
+    }
+    .xxl-40{
+        width: 40%;
+    }
+    .xxl-30{
+        width: 30%;
+    }
+    .xxl-20{
+        width: 20%;
+    }
+
+    .xxl-10{
+        width: 10%;
+    }
+    
+}
